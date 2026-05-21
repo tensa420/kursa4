@@ -1,0 +1,12 @@
+# Папки
+/data/
+/docs/
+
+# Исполняемые и временные файлы
+*.exe
+*.ps1
+start.cmd
+dev.cmd
+farmmarket.exe
+
+
