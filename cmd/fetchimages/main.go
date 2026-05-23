@@ -1,5 +1,3 @@
-// Скачивает фото товаров: Wikimedia Commons (точное имя файла) + запасные варианты.
-// Запуск: go run ./cmd/fetchimages
 package main
 
 import (
@@ -18,8 +16,8 @@ const catalogVersion = "7"
 
 var products = []struct {
 	ID, Name string
-	Files    []string // File:... на Commons, по порядку
-	Direct   string   // прямой URL (если Files не сработали)
+	Files    []string
+	Direct   string
 }{
 	{"p1", "Помидоры черри", []string{"File:Yellow cherry tomatoes.jpg", "File:Cherry-Tomatoes-in-Pack.jpg"}, ""},
 	{"p2", "Огурцы", []string{"File:Cucumber in market.jpg"}, ""},

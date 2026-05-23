@@ -4,7 +4,7 @@
 
 # Исполняемые и временные файлы
 *.exe
-*.ps1
+run-local-two-windows.ps1
 start.cmd
 dev.cmd
 farmmarket.exe
